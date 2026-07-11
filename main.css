@@ -1,0 +1,15 @@
+.vermei{
+    color: brown;
+}
+
+.tamanho{
+    height:10rem;
+}
+
+.capa{
+    max-height: 300px;
+}
+
+.footer{
+    position: fixed;
+}
