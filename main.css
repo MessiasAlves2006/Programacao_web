@@ -19,6 +19,14 @@
 
 .footer{
     position: fixed;
+    height: 5rem;
+}
+
+.footer-text{
+    margin-top: 1rem;
+    color: rgb(0, 244, 253);
+    font-size: x-large;
+    text-align: center;
 }
 
 .ft_perfil{
@@ -85,6 +93,14 @@
         margin-top: 5rem;
     }
 
+    .footer{
+        height: 4rem;
+    }
+
+    .footer-text{
+        font-size: x-small;
+    }
+
     .ft_perfil{
         width: 70px;
         height: 70px;
@@ -99,6 +115,7 @@
         font-size: x-small;
         align-items: center;
     }
+    
 }
 
 /* Fundo das imagens*/
