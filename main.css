@@ -14,3 +14,14 @@
 .footer{
     position: fixed;
 }
+
+@media (max-width: 768px) {
+    .buscar{
+        width: 12rem;
+    }
+
+    .buscar-btn{
+        font-size: small;
+        width: 5rem;
+    }
+}
