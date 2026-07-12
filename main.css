@@ -9,6 +9,12 @@
 .capa{
     max-height: 300px;
     max-width: 230px;
+    border: 5px solid #00f7da;
+}
+
+/* Cor do card dos jogos*/
+.card{
+    background-color: rgb(34, 5, 49);
 }
 
 .footer{
@@ -57,11 +63,11 @@
     }
 
     .col-center{
-        margin-left: 6rem;
+        margin-left: 5rem;
     }
 
     .card {
-        width: 28%;
+        width: 30%;
     }
 
     .legend{
@@ -71,10 +77,11 @@
     .capa{
         max-height: 7rem;
         max-width: 7rem;
+        border: 5px solid #00f7da;
     }
 
     .offcanvas{
-        max-width: 50vw;
+        max-width: 45vw;
         margin-top: 5rem;
     }
 
@@ -94,3 +101,31 @@
     }
 }
 
+/* Fundo das imagens*/
+.row{
+    background-color: rgb(18, 0, 20);
+}
+.menu-lateral{
+    background-color: rgb(31, 20, 50);
+}
+
+.minha-navbar {
+    background-color: rgb(14, 6, 26);
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+/* Botão de buscar*/
+.buscar-btn{
+    background-color: black;
+    color: rgb(0, 244, 253);
+}
+
+.rodape{
+    background-color: black;
+}
+/* Cor dos nomes dos jogos*/
+.legend{
+    background-color: rgb(0, 244, 253);
+    border: 5px solid #00f7da;
+}

@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="main.css">
     <title>Toolz</title>
 </head>
-<body class="">
-    <nav class="navbar fixed-top bg-body-tertiary">
+<body>
+    <nav class="navbar minha-navbar fixed-top">
         <div class="container-fluid">
             <div class="d-flex align-items-center">
                 <a class="navbar-brand" href="#">
@@ -16,13 +16,8 @@
                 </a>
                 <a class="navbar-brand" href="#"><h1 class="vermei brand_text">TOOLZ</h1></a>
             </div>
-            <form class="d-flex buscar" role="search">
-                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar"/>
-                <button class="btn btn-success buscar-btn" type="submit">Buscar</button>
-            </form>
         </div>
     </nav>
-
 
     <button id="menuToggle" class="btn btn-primary menu-toggle" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
         <span class="carousel-control-next-icon" id="arrow"></span>
@@ -30,11 +25,11 @@
     
     <main class="container-fluid my-nav">
         <div class="row">
-            <div class="col-2 bg-info col-esq">
+            <div class="col-2 menu-lateral col-esq">
                 <div class="d-flex flex-column align-items-center">
                     <img src="assets/dark souls.jpeg" alt="" class="circle mt-3" width="100" height="100">
-                    <h5 class="mt-2">Enzo Bloodborn da silva</h5>
-                    <p class="text-muted">enzoxitdomacaco@gmail.com</p>
+                    <h5 class="mt-2 text-white">Enzo Bloodborn da silva</h5>
+                    <p class="text-white">enzoxitdomacaco@gmail.com</p>
                 </div>
 
                 <ul class="nav flex-column align-items-center mt-4 mb-2">
@@ -51,7 +46,7 @@
                         <a class="nav-link" href="#">Sair</a>
                     </li>
                     <li class="nav-item mt-2">
-                        <h3>Franquias</h3>
+                        <h3 class="text-white">Franquias</h3>
                     </li>
                        <li class="nav-item">
                         <a class="nav-link" href="#trio1">Fallout</a>
@@ -80,13 +75,13 @@
                 </ul>
             </div>
 
-            <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
-                <aside class="col-12 bg-info align-items-center">
+            <div class="offcanvas menu-lateral offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                <aside class="col-12  align-items-center">
 
                     <div class="d-flex flex-column align-items-center">
-                        <img src="assets/dark souls.jpeg" alt="" class="circle mt-3 ft_perfil">
-                        <h5 class="mt-2 nome_perfil">Enzo Bloodborn da silva</h5>
-                        <p class="text-muted email_perfil">enzoxitdomacaco@gmail.com</p>
+                        <img id="foto_perfil" src="assets/dark souls.jpeg" alt="" class="circle mt-3 ft_perfil">
+                        <h5 id="nome_perfil" class="mt-2 nome_perfil text-white">Enzo Bloodborn da silva</h5>
+                        <p id="email_perfil" class="text-white email_perfil">enzoxitdomacaco@gmail.com</p>
                     </div>
 
                     <ul class="nav flex-column align-items-center mt-4 mb-2">
@@ -103,7 +98,7 @@
                             <a class="nav-link" href="#">Sair</a>
                         </li>
                         <li class="nav-item mt-2">
-                            <h3>Franquias</h3>
+                            <h3 class="text-white">Franquias</h3>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#trio1">Fallout</a>
@@ -131,7 +126,7 @@
                         </li>
                     </ul>
 
-                </aside>"
+                </aside>
 
             </div>
 
@@ -236,7 +231,7 @@
     </main>
 
     <footer class="fixed-bottom bg-secondary">
-        <h1>SLA</h1>
+        <h1>🎮Bem-vindo à ToolZ! Explore franquias, descubra novos jogos e monte sua biblioteca gamer com facilidade.</h1>
     </footer>
 
 
