@@ -25,6 +25,7 @@
 }
 
 .menu-toggle{
+    display: none;
     position: fixed;
     top: 50%;
     left: 1rem;
@@ -34,6 +35,10 @@
 }
 
 @media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
     .buscar{
         width: 12rem;
     }
