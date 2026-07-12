@@ -5,6 +5,7 @@ const menuToggle = document.getElementById('menuToggle');
 const seta = document.getElementById('arrow');
 const offcanvas = document.getElementById('offcanvasScrolling');
 
+
 function atualizarPosicaoBotao() {
     if (!menuToggle || !offcanvas) return;
 

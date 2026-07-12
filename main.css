@@ -13,6 +13,7 @@
 }
 
 .formulario{
+    max-width: 30rem;
     margin-left: 35vw;
     margin-bottom: 5rem;
     justify-content: center;
@@ -117,6 +118,12 @@
         align-items: center;
     }
     
+    .formulario{
+        max-width: 20rem;
+        margin-left: 20vw;
+        margin-bottom: 5rem;
+       
+    }
 }
 
 /* Fundo das imagens*/
