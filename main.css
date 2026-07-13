@@ -94,11 +94,11 @@
         margin-top: 5rem;
     }
 
-    /*
+    
     .footer{
         height: 4rem;
     }
-    */
+    
 
 
 
@@ -164,11 +164,11 @@ color: #00f7da;
 }
 
 @font-face{
-    font-family: 'Handel_Gothic';
-    src: url("assets/fonts/HandelGothicRegular.ttf") format('truetype');
+    font-family: 'audiowide';
+    src: url("assets/fonts/Audiowide-Regular.ttf") format('truetype');
 }
 
 body{
-    font-family: 'Handel_Gothic';
+    font-family: 'audiowide' !important;
 }
 
