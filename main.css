@@ -12,13 +12,23 @@
     border: 5px solid #00f7da;
 }
 
+.formulario{
+    max-width: 30rem;
+    margin-left: 35vw;
+    margin-bottom: 5rem;
+    justify-content: center;
+    background-color: rgb(34, 5, 49);
+    border: 5px solid #00f7da;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
 /* Cor do card dos jogos*/
 .card{
     background-color: rgb(34, 5, 49);
 }
 
 .footer{
-    position: fixed;
     height: 5rem;
 }
 
@@ -51,15 +61,6 @@
 @media (max-width: 768px) {
     .menu-toggle {
         display: block;
-    }
-
-    .buscar{
-        width: 12rem;
-    }
-
-    .buscar-btn{
-        font-size: small;
-        width: 5rem;
     }
 
     .nav-link{
@@ -102,7 +103,8 @@
 
 
     .footer-text{
-        font-size: x-small;
+        font-size: small;
+        margin: 0.5rem 0.5rem 0.5rem 0.5rem;
     }
 
     .ft_perfil{
@@ -120,6 +122,12 @@
         align-items: center;
     }
     
+    .formulario{
+        max-width: 20rem;
+        margin-left: 20vw;
+        margin-bottom: 5rem;
+       
+    }
 }
 
 /* Fundo das imagens*/
@@ -136,15 +144,11 @@
     display: flex;
     align-items: center;
 }
-/* Botão de buscar*/
-.buscar-btn{
-    background-color: black;
-    color: rgb(0, 244, 253);
-}
 
 .rodape{
     background-color: black;
 }
+
 /* Cor dos nomes dos jogos*/
 .legend{
     background-color: rgb(0, 244, 253);

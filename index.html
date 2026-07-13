@@ -213,24 +213,27 @@
                     </div>
             </div>
 
-            <div class="row p-3">
-                <form>
-                    <label for="nome">Nome:</label>
-                    <input type="text" id="nome">
-                    <label for="mail">Email:</label>
-                    <input type="text" id="mail">
-                    <label for="datanasc">Data de Nascimento</label>
-                    <input type="date" id="datanasc">
-                    <button type="button" onclick="podeComprar()">
-                        Pode comprar?
-                    </button>
-                </form>
-            </div>
+            <form class="formulario mt-5 align-items-center" id="formulario">
+                <div class="mb-3">
+                    <label for="nome" class="form-label text-white">Nome</label>
+                    <input type="text" class="form-control" id="nome">
+                </div>
+                <div class="mb-3">
+                    <label for="mail" class="form-label text-white">Email</label>
+                    <input type="email" class="form-control" id="mail" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <label for="datanasc" class="form-label text-white">Data de Nascimento</label>
+                    <input type="date" class="form-control" id="datanasc">
+                </div>
+                <button type="button" class="btn btn-info" onclick="podeComprar()">Pode Comprar?</button>
+            </form>
+        
         </div>
 
     </main>
 
-    <footer class="fixed-bottom footer menu-lateral">
+    <footer class="footer rodape">
         <h1 class="footer-text">Bem-vindo à ToolZ! Explore franquias, descubra novos jogos e monte sua biblioteca gamer com facilidade.</h1>
     </footer>
 
