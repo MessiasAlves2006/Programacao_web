@@ -93,9 +93,13 @@
         margin-top: 5rem;
     }
 
+    /*
     .footer{
         height: 4rem;
     }
+    */
+
+
 
     .footer-text{
         font-size: x-small;
@@ -146,3 +150,21 @@
     background-color: rgb(0, 244, 253);
     border: 5px solid #00f7da;
 }
+
+main{
+    padding-bottom: 6rem;
+}
+
+form{
+color: #00f7da;
+}
+
+@font-face{
+    font-family: 'Handel_Gothic';
+    src: url("assets/fonts/HandelGothicRegular.ttf") format('truetype');
+}
+
+body{
+    font-family: 'Handel_Gothic';
+}
+
